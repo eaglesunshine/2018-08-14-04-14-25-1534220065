@@ -22,6 +22,12 @@ module.exports = function main() {
 			res[0]+=sourse1[i];
 			res[1]+=sourse2[i];
 			res[2]+=sourse3[i];
+			if(i>0 && i<num.length-1)
+			{
+				res[0]+=' ';
+				res[1]+=' ';
+				res[2]+=' ';
+			}
 		}
 		res[0]+='\n';
 		res[1]+='\n';
